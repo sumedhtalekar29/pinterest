@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import {  } from '@fortawesome/free-solid-svg-icons';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
