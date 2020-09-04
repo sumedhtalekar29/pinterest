@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -11,6 +13,7 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotComponent } from './forgot/forgot.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,14 @@ import { ForgotComponent } from './forgot/forgot.component';
     LoginComponent,
     MainBodyComponent,
     SignupComponent,
-    ForgotComponent
+    ForgotComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
     FontAwesomeModule
   ],
   providers: [],
